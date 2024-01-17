@@ -1,17 +1,17 @@
 import { useState } from "react";
 import "./App.css";
 
-const frutas = ["banana", "manga", "uva", "pera", "tomate", "caju"];
+const pets = ["bella", "salem", "lupy", "castor", "flicky", "pupi"];
 
 export default function App() {
   const [busca, setBusca] = useState("");
-  const frutasfiltradas = frutas.filter((fruta) =>
-    fruta.toLowerCase().includes(busca.toLowerCase())
+  const petsfiltrados = pets.filter((pet) =>
+    pet.toLowerCase().includes(busca.toLowerCase())
   );
 
   return (
     <div className="App">
-      <h1>Minhas frutas</h1>
+      <h1>Pets</h1>
       <input
         type="text"
         value={busca}
@@ -19,8 +19,8 @@ export default function App() {
       />
 
       <ul>
-        {frutasfiltradas.map((fruta) => (
-          <li key={fruta}> {fruta}</li>
+        {petsfiltrados.map((pet) => (
+          <li key={pet}> {pet}</li>
         ))}
       </ul>
     </div>
