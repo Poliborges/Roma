@@ -1,0 +1,28 @@
+{
+  "pets": [
+    {
+      "id": 2,
+      "name": "Bella",
+      "image": "https://cdn2.thecatapi.com/images/2mb.jpg",
+      "breed": "Labrador",
+      "weight": "32kg",
+      "description": "Active and playful.",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lupy",
+      "image": "https://cdn2.thecatapi.com/images/4gp.gif",
+      "breed": "raça indefinida",
+      "weight": "32kg",
+      "description": "Active and playful.",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      }
+    }
+  ]
+}
